@@ -5,10 +5,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='icon' type='image/x-icon' href="/favicon.ico" />
-    <meta http-equiv = "refresh" content = "1; url = /blog/" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icon.css">
     <meta name="google-site-verification" content="9nytPC5nBPaVW8sXZ7I2tT96HIYhOhMF_P_cXJrMD-0" />
   </head>
   <body>
-    Redirecting to my blog page...
+    <nav>
+      <a class="name" href="#">Yubing Qian</a>
+      <div class="divider"></div>
+      <div class="nav-items">
+        <a href="#education">
+          <div class="icon i-school"></div>
+          <div>Education</div>
+        </a>
+        <a href="#experience">
+          <div class="icon i-work"></div>
+          <div>Experience</div>
+        </a>
+        <a href="#publications">
+          <div class="icon i-book"></div>
+          <div>Publications</div>
+        </a>
+        <a href="#talks">
+          <div class="icon i-slideshow"></div>
+          <div>Talks</div>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <div class="header">
+        <div class="avatar">
+          <img src="avatar.png" alt="avatar">
+          <div class="links">
+            <div>
+              <span class="icon i-github"></span>
+              <span class="link-name">GitHub</span>
+              <a href="https://github.com/AllanChain/">AllanChain</a>
+            </div>
+            <div>
+              <span class="icon i-blog"></span>
+              <span class="link-name">Blog</span>
+              <a href="https://allanchain.github.io/blog/">AC Dustbin</a>
+            </div>
+            <div>
+              <span class="icon i-orcid"></span>
+              <span class="link-name">ORCiD</span>
+              <a href="https://orcid.org/0000-0001-6980-163X">Yubing Qian</a>
+            </div>
+            <div>
+              <span class="icon i-friendica"></span>
+              <span class="link-name">Friendica</span>
+              <a href="https://venera.social/profile/allanchain">AllanChain</a>
+            </div>
+          </div>
+        </div>
+        <div class="intro">
+          <h2>About</h2>
+          <p>I am Yubing Qian, and my ID on GitHub is AllanChain.</p>
+          <p>
+            Currently (as of mid-2023), I am a PhD student at
+            Institute of Condensed Matter and Material Physics, School of Physics, Peking University.
+            I am working on computational physics in
+            <a href="https://github.com/TheChenGroup">Ji Chen's group</a>,
+            mainly interested in quantum Monte Carlo (QMC) with neural networks.
+            I am also a intern at ByteDance Research, focusing on the same topic.
+          </p>
+          <p>
+            I'm a programming hobbyist and open source lover.
+            My primary programming languages are Python and JavaScript.
+            You can read more on <a href="https://allanchain.github.io/blog/">my blog</a>
+            and <a href="https://github.com/AllanChain/">my GitHub profile</a>.
+          </p>
+        </div>
+      </div>
+      <h2 id="education">
+        <span class="icon i-school"></span>
+        Education
+      </h2>
+      <div class="timeline">
+        <div class="time-line-item">
+          <div class="time-range">
+            2023 - now
+          </div>
+          <div class="time-line-description">
+            <div><b>PhD</b> in Condensed Matter Physics</div>
+            <div class="institution">Institute of Condensed Matter and Material Physics, School of Physics, Peking University</div>
+          </div>
+        </div>
+        <div class="time-line-item">
+          <div class="time-range">
+            2019 - 2023
+          </div>
+          <div class="time-line-description">
+            <div><b>Bsc</b> in Physics</div>
+            <div class="institution">School of Physics, Peking University</div>
+            <div>
+              Undergraduate thesis:
+              <em>Interatomic force calculation with neural network wavefunction for solids</em>
+              <a href="https://www.mediafire.com/file/3s5etqgietz01zw/Interatomic_force_calculation_with_neural_network_wavefunction_for_solids.pdf/file">
+                <span class="icon i-pdf"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="experience">
+        <span class="icon i-work"></span>
+        Experience
+      </h2>
+      <div class="timeline">
+        <div class="time-line-item">
+          <div class="time-range">
+            2022 - now
+          </div>
+          <div class="time-line-description">
+            <div><b>Intern</b> at ByteDance Research</div>
+          </div>
+        </div>
+        <div class="time-line-item">
+          <div class="time-range">
+            2020 - 2021
+          </div>
+          <div class="time-line-description">
+            <div><b>Chair</b> of the Network Operation Center</div>
+            <div class="institution">Peking University School of Physics Student Union</div>
+          </div>
+        </div><div class="time-line-item">
+          <div class="time-range">
+            2019 - 2020
+          </div>
+          <div class="time-line-description">
+            <div><b>Member</b> of the Network Operation Center</div>
+            <div class="institution">Peking University School of Physics Student Union</div>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="publications">
+        <span class="icon i-book"></span>
+        Publications
+      </h2>
+      <ul>
+        <li>
+          Y. Qian, W. Fu, W. Ren, and J. Chen, Interatomic Force from Neural Network Based Variational Quantum Monte Carlo, The Journal of Chemical Physics 157, 164104 (2022).
+        </li>
+      </ul>
+
+      <h2 id="talks">
+        <span class="icon i-slideshow"></span>
+        All Talks
+      </h2>
+      <div class="timeline">
+        <div class="time-line-item">
+          <div class="time-range">
+            2022-04-29
+          </div>
+          <div class="time-line-description">
+            <div>
+              <span class="icon i-chinese"></span>
+              Hartree-Fock method
+              <a href="https://www.mediafire.com/file/gdtmko2fjifnm7p/hf.pdf/file">
+                <span class="icon i-pdf"></span>
+              </a>
+            </div>
+            <div class="institution">
+              Quantum Mechanics Seminar Course.
+              Hosted by Pengwei Zhao.
+            </div>
+          </div>
+        </div>
+        <div class="time-line-item">
+          <div class="time-range">
+            2022-04-15
+          </div>
+          <div class="time-line-description">
+            <div>
+              <span class="icon i-chinese"></span>
+              Quantum Optics and Quantum Computation
+              <a href="https://www.mediafire.com/file/71k41g8bdwsgc31/quantum-optics.pdf/file">
+                <span class="icon i-pdf"></span>
+              </a>
+            </div>
+            <div class="institution">
+              Optics Seminar Course.
+              Hosted by Xiaoyong Hu.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
