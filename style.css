@@ -111,7 +111,6 @@ nav .nav-items a:hover {
   }
 }
 
-
 main {
   margin: 0 auto;
   padding: 0 20px;
@@ -125,11 +124,6 @@ main {
   justify-content: space-around;
   align-items: center;
 }
-.header > .avatar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .header > .avatar > img {
   border-radius: 50%;
   width: 13rem;
@@ -137,7 +131,7 @@ main {
   margin: 1rem 2rem;
 }
 .header .links {
-  width: 15rem;
+  margin-left: 2.5rem;
 }
 .header .links a {
   color: var(--text);
