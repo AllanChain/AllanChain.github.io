@@ -175,3 +175,10 @@ main {
     padding-left: 7rem;
   }
 }
+
+.poster::before {
+  content: "[poster]";
+  color: var(--secondary);
+  font-size: 0.8em;
+  opacity: 0.7;
+}
