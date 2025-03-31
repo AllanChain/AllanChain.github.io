@@ -24,6 +24,7 @@
 html {
   color: var(--text);
   background-color: var(--background);
+  overscroll-behavior: none;
 }
 body {
   margin: 0 0 20px 0;
@@ -34,7 +35,7 @@ h2, h3, h4, h5, h6, b {
 a {
   color: var(--primary);
 }
-p, .links {
+p, li, .links {
   line-height: 1.5em;
 }
 @media screen and (max-width: 599px) {
