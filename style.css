@@ -29,7 +29,7 @@ html {
 body {
   margin: 0 0 20px 0;
 }
-h2, h3, h4, h5, h6, b {
+h2, h3, h4, h5, h6, strong {
   color: var(--primary);
 }
 a {
